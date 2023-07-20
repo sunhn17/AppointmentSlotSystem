@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\AuthenticationSimple\AuthenticationSimple.csproj" />
+    <ProjectReference Include="..\Booking.API\Booking.API.csproj" />
+    <ProjectReference Include="..\ManagementDoctor\ManagementDoctor.csproj" />
+    <ProjectReference Include="..\NotificationSimple\NotificationSimple.csproj" />
+  </ItemGroup>
+
+</Project>
